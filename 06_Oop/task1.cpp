@@ -17,15 +17,15 @@ class Student{
 int main() {
     Student s1;
     s1.name = "Vishal Yadaw";
-    s1.deptment = "CSE";
-    s1.Roll_number = "********";
+    s1.deptment = "B Tech CSE";
+    s1.Roll_number = "**";
     s1.getdata();
     cout<<" "<<endl;
 
     Student s2;
-    s2.name = "Rahul Yadaw";
-    s2.deptment = "ECE";
-    s2.Roll_number = "********";
+    s2.name = "VYADAW";
+    s2.deptment = "Diploma Cse";
+    s2.Roll_number = "56";
     s2.getdata();
     return 0;
 }
