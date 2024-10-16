@@ -7,6 +7,12 @@ class Student{
     string name;
     string deptment;
     string Roll_number;
+    void  getdata(){
+        cout << "Name: " <<name << endl;
+        cout << "Department: " <<deptment << endl;
+        cout << "Roll_number: " <<Roll_number << endl;
+    }
+
     
 };
 
@@ -15,8 +21,13 @@ int main() {
     s1.name = "Vishal Yadaw";
     s1.deptment = "CSE";
     s1.Roll_number = "********";
-    cout << "Name: " << s1.name << endl;
-    cout << "Department: " << s1.deptment << endl;
-    cout << "Roll_number: " << s1.Roll_number << endl;
+    s1.getdata();
+    cout<<" "<<endl;
+
+    Student s2;
+    s2.name = "Rahul Yadaw";
+    s2.deptment = "ECE";
+    s2.Roll_number = "********";
+    s2.getdata();
     return 0;
 }
