@@ -12,8 +12,6 @@ class Student{
         cout << "Department: " <<deptment << endl;
         cout << "Roll_number: " <<Roll_number << endl;
     }
-
-    
 };
 
 int main() {
