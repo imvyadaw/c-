@@ -14,3 +14,4 @@ int main() {
     int total=totalchaiServed(chaiServed,7);
     return 0;
 }
+
